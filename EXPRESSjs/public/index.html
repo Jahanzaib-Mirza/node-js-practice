@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="form-box">
+            <div class="myBtnBox">
+                <div id="btn"></div>
+                <buttton type="buttton" class="myBtn" onclick="login()">Login</buttton>
+                <buttton type="buttton" class="myBtn" onclick="register()">Register</buttton>
+            </div>
+            <div class="socialIcons">
+                <img src="fb.png" alt="">
+                <img src="tw.png" alt="">
+                <img src="gp.png" alt="">
+    
+            </div>
+            <form id="login"class=login>
+                <input type="text" class="input-field" placeholder="User ID" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="chk-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log In</button>
+
+            </form>
+            <form id="register"class=login>
+                <input type="text" class="input-field" placeholder="User ID" required>
+                <input type="email" class="input-field" placeholder="Email ID" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="chk-box"><span>I agree to terms & condition</span>
+                <button type="submit" class="submit-btn">Register</button>
+
+            </form>
+        </div>
+        
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
